@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor.UIElements;
+using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
 public class SubmarineController : MonoBehaviour {
@@ -8,8 +9,8 @@ public class SubmarineController : MonoBehaviour {
     public int maxSpeed = 15;
     public int forwardAccel = 5;
     public int backwardsAccel = 5;
-    public int turnSpeed = 50;
-    private float speedInput = 0f;
+    public int turnSpeed;
+    public int levitationSpeed = 10;
 
     void Start() {
         
@@ -18,6 +19,7 @@ public class SubmarineController : MonoBehaviour {
     void FixedUpdate() {
         SubmarineMovement();
         SubmarineTurn();
+        SubmarineLevitate();
     }
 
     void SubmarineMovement() {
@@ -27,17 +29,27 @@ public class SubmarineController : MonoBehaviour {
         else if(Input.GetKey("s")){
             rbSm.AddRelativeForce(-transform.forward * maxSpeed);
         }
-        Vector3 localVelocity = transform.InverseTransformDirection(rbSm.velocity);
-        localVelocity.x = 0;
-        rbSm.velocity = transform.TransformDirection(localVelocity);
+        //Vector3 localVelocity = transform.InverseTransformDirection(rbSm.velocity);
+        //localVelocity.x = 0;
+        //rbSm.velocity = transform.TransformDirection(localVelocity);
     }
 
     void SubmarineTurn() {
         if (Input.GetKey("d")) {
-            rbSm.AddTorque(Vector3.up * turnSpeed);
+            //rbSm.AddTorque(Vector3.up * turnSpeed);
+            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(0f, turnSpeed * Time.deltaTime, 0));
         }
         else if (Input.GetKey("a")) {
-            rbSm.AddTorque(-Vector3.up * turnSpeed);
+            //rbSm.AddTorque(-Vector3.up * turnSpeed);
+            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(0f, -turnSpeed * Time.deltaTime, 0));
+        }
+    }
+
+    void SubmarineLevitate() {
+        if (Input.GetKey("q")) {
+            rbSm.AddForce(Vector3.down * levitationSpeed);
+        } else if (Input.GetKey("e")) {
+            rbSm.AddForce(Vector3.up * levitationSpeed);
         }
     }
 }

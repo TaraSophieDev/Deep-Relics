@@ -76,5 +76,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rbSm: {fileID: 3232692056343955670}
-  forwardSpeed: 10
-  forwardAcceleration: 5
+  maxSpeed: 15
+  forwardAccel: 5
+  backwardsAccel: 5
+  turnSpeed: 50
+  levitationSpeed: 10
