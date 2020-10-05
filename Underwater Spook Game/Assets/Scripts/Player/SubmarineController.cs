@@ -1,4 +1,6 @@
-﻿using UnityEditor.UIElements;
+﻿using System.Diagnostics;
+using System.Runtime.InteropServices;
+using UnityEditor.UIElements;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -9,8 +11,8 @@ public class SubmarineController : MonoBehaviour {
     public int maxSpeed = 15;
     public int forwardAccel = 5;
     public int backwardsAccel = 5;
-    public int turnSpeed;
-    public int levitationSpeed = 10;
+    public int turnSpeed = 100;
+    public int ascendSpeed = 10;
 
     void Start() {
         
@@ -19,7 +21,8 @@ public class SubmarineController : MonoBehaviour {
     void FixedUpdate() {
         SubmarineMovement();
         SubmarineTurn();
-        SubmarineLevitate();
+        SubmarineAscend();
+        SubmarineVControls();
     }
 
     void SubmarineMovement() {
@@ -45,11 +48,20 @@ public class SubmarineController : MonoBehaviour {
         }
     }
 
-    void SubmarineLevitate() {
+    void SubmarineAscend() {
         if (Input.GetKey("q")) {
-            rbSm.AddForce(Vector3.down * levitationSpeed);
+            rbSm.AddForce(Vector3.down * ascendSpeed);
         } else if (Input.GetKey("e")) {
-            rbSm.AddForce(Vector3.up * levitationSpeed);
+            rbSm.AddForce(Vector3.up * ascendSpeed);
+        }
+    }
+
+    //WIP
+    void SubmarineVControls() {
+        if (Input.GetKey("up")) {
+            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(-turnSpeed * Time.deltaTime, 0f, 0));
+        } else if (Input.GetKey("down")) {
+            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(turnSpeed * Time.deltaTime, 0f, 0));
         }
     }
 }
