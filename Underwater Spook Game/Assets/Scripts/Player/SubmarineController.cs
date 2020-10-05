@@ -22,7 +22,6 @@ public class SubmarineController : MonoBehaviour {
         SubmarineMovement();
         SubmarineTurn();
         SubmarineAscend();
-        SubmarineVControls();
     }
 
     void SubmarineMovement() {
@@ -56,12 +55,12 @@ public class SubmarineController : MonoBehaviour {
         }
     }
 
-    //WIP
+    //WIP NOT USED
     void SubmarineVControls() {
         if (Input.GetKey("up")) {
-            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(-turnSpeed * Time.deltaTime, 0f, 0));
+            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(-turnSpeed * Time.deltaTime, 0f, 0f));
         } else if (Input.GetKey("down")) {
-            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(turnSpeed * Time.deltaTime, 0f, 0));
+            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(turnSpeed * Time.deltaTime, 0f, 0f));
         }
     }
 }
