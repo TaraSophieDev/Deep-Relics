@@ -228,7 +228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6545321947439678927, guid: e75155229c2d258448976dbb934362e0, type: 3}
       propertyPath: turnSpeed
-      value: 250
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e75155229c2d258448976dbb934362e0, type: 3}
@@ -321,7 +321,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697285515}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -14.89, z: 0}
+  m_LocalPosition: {x: 0, y: -1.55, z: 5.04}
   m_LocalScale: {x: 3.3459, y: 1, z: 4.3664}
   m_Children: []
   m_Father: {fileID: 0}
