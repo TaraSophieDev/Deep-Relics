@@ -71,10 +71,10 @@ MonoBehaviour:
   m_AdvancedMode: 0
   isEnabled:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   fogFalloffMode:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 2
   color:
     m_OverrideState: 1
     m_Value: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
@@ -93,12 +93,12 @@ MonoBehaviour:
     min: 0
     max: 1
   distanceMin:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 80
     min: 0
   distanceMax:
-    m_OverrideState: 0
-    m_Value: 100
+    m_OverrideState: 1
+    m_Value: 120
     min: 0.00001
   heightFalloffEnabled:
     m_OverrideState: 0
