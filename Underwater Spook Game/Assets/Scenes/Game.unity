@@ -180,7 +180,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3232692056343955670, guid: e75155229c2d258448976dbb934362e0, type: 3}
       propertyPath: m_Constraints
-      value: 16
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 3232692056343955671, guid: e75155229c2d258448976dbb934362e0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -525,7 +525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1132626431}
-  offset: {x: 0, y: 1, z: -2}
+  offset: {x: 0, y: 3, z: -5}
   smoothSpeed: 0.9
 --- !u!1001 &8939242400824466297
 PrefabInstance:
