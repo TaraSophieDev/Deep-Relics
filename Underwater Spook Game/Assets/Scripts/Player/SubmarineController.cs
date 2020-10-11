@@ -20,6 +20,7 @@ public class SubmarineController : MonoBehaviour {
 
     void FixedUpdate() {
         SubmarineMovement();
+        SubmarineStrafe();
         SubmarineTurn();
         SubmarineAscend();
 
@@ -39,20 +40,30 @@ public class SubmarineController : MonoBehaviour {
     }
 
     void SubmarineTurn() {
-        if (Input.GetKey("d") || Input.GetKey(KeyCode.RightArrow)) {
+        if (Input.GetKey(KeyCode.RightArrow)) {
             //rbSm.AddTorque(Vector3.up * turnSpeed);
             rbSm.transform.rotation = Quaternion.Euler(rbSm.transform.rotation.eulerAngles + new Vector3(0f, turnSpeed * Time.deltaTime, 0));
         }
-        else if (Input.GetKey("a") || Input.GetKey(KeyCode.LeftArrow)) {
+        else if (Input.GetKey(KeyCode.LeftArrow)) {
             //rbSm.AddTorque(-Vector3.up * turnSpeed);
             rbSm.transform.rotation = Quaternion.Euler(rbSm.transform.rotation.eulerAngles + new Vector3(0f, -turnSpeed * Time.deltaTime, 0));
+        }
+    }
+
+    void SubmarineStrafe() {
+        if (Input.GetKey("a")) {
+            rbSm.AddRelativeForce(rbSm.transform.up * maxSpeed);
+        }
+        else if (Input.GetKey("d")) {
+            rbSm.AddRelativeForce(-rbSm.transform.up * maxSpeed);
         }
     }
 
     void SubmarineAscend() {
         if (Input.GetKey("q")) {
             rbSm.AddForce(Vector3.down * ascendSpeed);
-        } else if (Input.GetKey("e")) {
+        } 
+        else if (Input.GetKey("e")) {
             rbSm.AddForce(Vector3.up * ascendSpeed);
         }
     }
@@ -61,7 +72,8 @@ public class SubmarineController : MonoBehaviour {
     void SubmarineVControls() {
         if (Input.GetKey("up")) {
             rbSm.transform.rotation = Quaternion.Euler(rbSm.transform.rotation.eulerAngles + new Vector3(-turnSpeed * Time.deltaTime, 0f, 0f));
-        } else if (Input.GetKey("down")) {
+        } 
+        else if (Input.GetKey("down")) {
             rbSm.transform.rotation = Quaternion.Euler(rbSm.transform.rotation.eulerAngles + new Vector3(turnSpeed * Time.deltaTime, 0f, 0f));
         }
     }
