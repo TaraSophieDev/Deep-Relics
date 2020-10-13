@@ -9,7 +9,9 @@ public class SubmarineController : MonoBehaviour {
     public Rigidbody rbSm;
     public Camera camera;
 
-    private int y = 15;
+    public int vRotationSpeed = 15;
+    public float minRotation = -80f;
+    public float maxRotation = 80f;
     private Vector3 rotationCam;
 
     public int maxSpeed = 15;
@@ -24,15 +26,15 @@ public class SubmarineController : MonoBehaviour {
         SubmarineTurn();
         SubmarineAscend();
 
-        CameraVRotation();
+        CameraYRotation();
     }
 
     void SubmarineMovement() {
         if (Input.GetKey("w")) {
-            rbSm.AddRelativeForce(rbSm.transform.forward * maxSpeed);
+            rbSm.AddForce(rbSm.transform.forward * maxSpeed);
         } 
         else if(Input.GetKey("s")){
-            rbSm.AddRelativeForce(-rbSm.transform.forward * maxSpeed);
+            rbSm.AddForce(-rbSm.transform.forward * maxSpeed);
         }
         //Vector3 localVelocity = transform.InverseTransformDirection(rbSm.velocity);
         //localVelocity.x = 0;
@@ -42,7 +44,7 @@ public class SubmarineController : MonoBehaviour {
     void SubmarineTurn() {
         if (Input.GetKey(KeyCode.RightArrow)) {
             //rbSm.AddTorque(Vector3.up * turnSpeed);
-            rbSm.transform.rotation = Quaternion.Euler(rbSm.transform.rotation.eulerAngles + new Vector3(0f, turnSpeed * Time.deltaTime, 0));
+            rbSm.transform.rotation = Quaternion.Euler(rbSm.transform.rotation.eulerAngles + new Vector3(0f, turnSpeed * Time.deltaTime, 0f));
         }
         else if (Input.GetKey(KeyCode.LeftArrow)) {
             //rbSm.AddTorque(-Vector3.up * turnSpeed);
@@ -52,18 +54,18 @@ public class SubmarineController : MonoBehaviour {
 
     void SubmarineStrafe() {
         if (Input.GetKey("a")) {
-            rbSm.AddRelativeForce(rbSm.transform.up * maxSpeed);
+            rbSm.AddForce(-rbSm.transform.right * maxSpeed);
         }
         else if (Input.GetKey("d")) {
-            rbSm.AddRelativeForce(-rbSm.transform.up * maxSpeed);
+            rbSm.AddForce(rbSm.transform.right * maxSpeed);
         }
     }
 
     void SubmarineAscend() {
-        if (Input.GetKey("q")) {
+        if (Input.GetKey("q") || Input.GetKey(KeyCode.LeftControl)) {
             rbSm.AddForce(Vector3.down * ascendSpeed);
         } 
-        else if (Input.GetKey("e")) {
+        else if (Input.GetKey("e") || Input.GetKey(KeyCode.Space)) {
             rbSm.AddForce(Vector3.up * ascendSpeed);
         }
     }
@@ -78,14 +80,17 @@ public class SubmarineController : MonoBehaviour {
         }
     }
 
-    private void CameraVRotation() {
+    private void CameraYRotation() {
         if (Input.GetKey(KeyCode.DownArrow)) {
-            rotationCam = new Vector3(y * -1 * Time.deltaTime, 0);
-            camera.transform.eulerAngles -= rotationCam;
+            rotationCam += new Vector3(vRotationSpeed * Time.deltaTime, 0);
+            rotationCam.x = Mathf.Clamp(rotationCam.x, minRotation, maxRotation);
+            camera.transform.localEulerAngles = rotationCam;
         }
         else if (Input.GetKey(KeyCode.UpArrow)) {
-            rotationCam = new Vector3(y * 1 * Time.deltaTime, 0);
-            camera.transform.eulerAngles -= rotationCam;
+            rotationCam -= new Vector3(vRotationSpeed * Time.deltaTime, 0);
+            rotationCam.x = Mathf.Clamp(rotationCam.x, minRotation, maxRotation);
+            camera.transform.localEulerAngles = rotationCam;
         }
+        
     }
 }
