@@ -70,16 +70,6 @@ public class SubmarineController : MonoBehaviour {
         }
     }
 
-    //WIP NOT USED
-    void SubmarineVControls() {
-        if (Input.GetKey("up")) {
-            rbSm.transform.rotation = Quaternion.Euler(rbSm.transform.rotation.eulerAngles + new Vector3(-turnSpeed * Time.deltaTime, 0f, 0f));
-        } 
-        else if (Input.GetKey("down")) {
-            rbSm.transform.rotation = Quaternion.Euler(rbSm.transform.rotation.eulerAngles + new Vector3(turnSpeed * Time.deltaTime, 0f, 0f));
-        }
-    }
-
     private void CameraYRotation() {
         if (Input.GetKey(KeyCode.DownArrow)) {
             rotationCam += new Vector3(vRotationSpeed * Time.deltaTime, 0);
