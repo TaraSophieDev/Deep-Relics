@@ -77,13 +77,13 @@ MonoBehaviour:
     m_Value: 2
   color:
     m_OverrideState: 1
-    m_Value: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
+    m_Value: {r: 0.23633854, g: 0.3583779, b: 0.4433962, a: 1}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
   precisionAlpha:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 0.5
   precisionAlphaDitherTexture:
     m_OverrideState: 0
     m_Value: {fileID: 2800000, guid: 4a3e96c03e7d7c34a8fb8f59764f1945, type: 3}
@@ -94,11 +94,11 @@ MonoBehaviour:
     max: 1
   distanceMin:
     m_OverrideState: 1
-    m_Value: 200
+    m_Value: 0
     min: 0
   distanceMax:
     m_OverrideState: 1
-    m_Value: 240
+    m_Value: 250
     min: 0.00001
   heightFalloffEnabled:
     m_OverrideState: 0
@@ -116,8 +116,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   colorLayer1:
-    m_OverrideState: 0
-    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0.13082945, g: 0.20880993, b: 0.26415092, a: 1}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
@@ -130,14 +130,14 @@ MonoBehaviour:
     m_Value: 100
     min: 0.00001
   heightFalloffEnabledLayer1:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
   heightMinLayer1:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 100
   heightMaxLayer1:
-    m_OverrideState: 0
-    m_Value: 10
+    m_OverrideState: 1
+    m_Value: 200
 --- !u!114 &-4662980217845597205
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -273,7 +273,7 @@ MonoBehaviour:
     m_Value: 0
   drawDistance:
     m_OverrideState: 1
-    m_Value: 1000
+    m_Value: 400
     min: 0
 --- !u!114 &11400000
 MonoBehaviour:
@@ -404,7 +404,7 @@ MonoBehaviour:
     m_Value: 0
   frameLimit:
     m_OverrideState: 0
-    m_Value: 24
+    m_Value: 15
     min: 1
   aspectMode:
     m_OverrideState: 0
