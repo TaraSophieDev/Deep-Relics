@@ -98,7 +98,7 @@ MonoBehaviour:
     min: 0
   distanceMax:
     m_OverrideState: 1
-    m_Value: 250
+    m_Value: 600
     min: 0.00001
   heightFalloffEnabled:
     m_OverrideState: 0
@@ -273,7 +273,7 @@ MonoBehaviour:
     m_Value: 0
   drawDistance:
     m_OverrideState: 1
-    m_Value: 400
+    m_Value: 700
     min: 0
 --- !u!114 &11400000
 MonoBehaviour:
