@@ -8,7 +8,11 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Player" t="Include">
+            <e p="ScanRuin.cs" t="Include" />
             <e p="SubmarineController.cs" t="Include" />
+          </e>
+          <e p="Ruin" t="Include">
+            <e p="Ruin.cs" t="Include" />
           </e>
         </e>
       </e>
