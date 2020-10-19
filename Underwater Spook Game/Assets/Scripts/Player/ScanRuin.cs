@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class ScanRuin : MonoBehaviour {
 
     public float range = 0;
+    public float scanTimer;
     
     public ScanState state = ScanState.ready;
     public enum ScanState {
@@ -19,18 +20,24 @@ public class ScanRuin : MonoBehaviour {
     }
     
     void Update() {
-        if (Input.GetKey("f")) {
+        if (Input.GetKeyDown("f")) {
+            ScanRuinFunc();
+            scanTimer = Time.time;
+        }
+        else if (Input.GetKeyUp("f")) {
+            
+        }
+        /*if (Input.GetKeyDown("f")) {
             switch (state) {
                 case ScanState.ready:
                     ScanRuinFunc();
-                    print("ready");
                     break;
                 case ScanState.scanning:
                     break;
                 default:
                     break;
             }
-        }
+        }*/
     }
 
     void ScanRuinFunc() {
@@ -47,6 +54,9 @@ public class ScanRuin : MonoBehaviour {
             if (scanObject != null) {
                 print("scanning");
             }
+        }
+        else {
+            print("No scannable Object");
         }
     }
 
