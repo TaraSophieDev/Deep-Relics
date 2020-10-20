@@ -134,10 +134,10 @@ MonoBehaviour:
     m_Value: 1
   heightMinLayer1:
     m_OverrideState: 1
-    m_Value: 550
+    m_Value: 0
   heightMaxLayer1:
     m_OverrideState: 1
-    m_Value: 600
+    m_Value: 0.001
 --- !u!114 &-4662980217845597205
 MonoBehaviour:
   m_ObjectHideFlags: 3
