@@ -4,28 +4,23 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class ScanRuin : MonoBehaviour {
-
-    public float range = 0;
-    public float scanTimer;
     
+    public float range = 0;
+
     public ScanState state = ScanState.ready;
     public enum ScanState {
         ready,
         scanning
     }
     void Start() {
-        
     }
     
     void Update() {
-        if (Input.GetKeyDown("f")) {
-            ScanRuinFunc();
-            scanTimer = Time.time;
-        }
-        else if (Input.GetKeyUp("f")) {
-            
+        if (Input.GetKey("f")) {
+            RuinScanner();
         }
         /*if (Input.GetKeyDown("f")) {
             switch (state) {
@@ -40,19 +35,18 @@ public class ScanRuin : MonoBehaviour {
         }*/
     }
 
-    void ScanRuinFunc() {
-        RaycastShot();
-    }
-    void RaycastShot() {
+    void RuinScanner() {
         Vector3 direction = transform.forward;
         Debug.DrawRay(transform.position, direction * range, Color.green, 2);
 
         int layerMask = ~(1 << 8);
         if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, range, layerMask)) {
             print(hit.transform.name);
-            Ruin scanObject = hit.transform.GetComponent<Ruin>();
-            if (scanObject != null) {
-                print("scanning");
+            //just works in the if statement
+            if (hit.transform.TryGetComponent<Ruin>(out Ruin ruin)) {
+                ruin.ScanTickDown(Time.deltaTime);
+                //print("scanTime: " + ruin.scanTime);
+                print("currentScanTime: " +  ruin.currentScanTime);
             }
         }
         else {
