@@ -20,11 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df670b57-ec13-4f63-a921-522bc31ecc41" name="Default Changelist" comment="Added Level WIP, fixed minor bugs">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PSX/PSX Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PSX/PSX Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Level_01.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Level_01.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Level_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Level_01.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Raw_Models/Level_01.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raw_Models/Level_01.blend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Raw_Models/Level_01.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raw_Models/Level_01.blend1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ruin/Ruin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ruin/Ruin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +38,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="WARN_ABOUT_CRLF" value="false" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Underwater-Spook-Game/Underwater Spook Game/Assets/Scripts/Player/ScanRuin.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Underwater-Spook-Game/Underwater Spook Game/Assets/Scripts/Player/ScanRuin.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Underwater-Spook-Game/Underwater Spook Game/Assets/Scripts/Ruin/Ruin.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -113,7 +112,10 @@
       <workItem from="1603117407001" duration="9082000" />
       <workItem from="1603134934892" duration="1247000" />
       <workItem from="1603196681832" duration="116000" />
-      <workItem from="1603203172049" duration="18167000" />
+      <workItem from="1603203172049" duration="18213000" />
+      <workItem from="1603264235047" duration="484000" />
+      <workItem from="1603312645573" duration="421000" />
+      <workItem from="1603483030270" duration="463000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bug (weird movement) and fixed code convention">
       <created>1602616055006</created>
@@ -220,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603224857121</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="meta; minor level changes">
+      <created>1603224886538</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1603224886538</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +264,8 @@
     <MESSAGE value="added sky border, enhanced map" />
     <MESSAGE value="Added states; Timer; Reset Timer; Random Num;" />
     <MESSAGE value="Changed func names; added timer calculation when raycast hit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed func names; added timer calculation when raycast hit" />
+    <MESSAGE value="meta; minor level changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="meta; minor level changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="824" y="461" width="619" height="298" key="#C#" timestamp="1603134988239">
@@ -267,10 +277,10 @@
     </state>
     <state x="594" y="12" width="1223" height="852" key="SettingsEditor/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1603122547631" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1680.22.1680.1010@0.0.1920.1040" timestamp="1602688939501" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603137308121">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603224890700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1603137308121" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1603224890700" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.22.1680.1010@0.0.1920.1040" timestamp="1602619370442" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603220682898">
       <screen x="0" y="0" width="1920" height="1040" />

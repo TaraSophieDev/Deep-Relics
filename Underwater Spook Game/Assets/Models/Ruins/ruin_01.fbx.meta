@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 35c854bf31204aa4a85e3012839c164a
+guid: f7794e7c49347e34c8428163a0874355
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_ruin_01
+    second: {fileID: 2100000, guid: 9a52a7b3d6bc2754f96554e501942ef5, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
