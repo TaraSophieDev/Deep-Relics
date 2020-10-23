@@ -1,6 +1,4 @@
-﻿using System;
-using UnityEditor.UI;
-using UnityEngine;
+﻿using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class Ruin : MonoBehaviour {
@@ -40,7 +38,7 @@ public class Ruin : MonoBehaviour {
         else if (currentScanTime > 0 && (Input.GetKeyUp("f"))) {
             state = ruinState.incompleteScan;
         }
-        else if (currentScanTime == 0 && (Input.GetKeyUp("f"))) {
+        else if (currentScanTime == 0 ) {
             state = ruinState.completeScan;
         }
         else {
