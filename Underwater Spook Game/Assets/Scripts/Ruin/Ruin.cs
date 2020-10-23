@@ -32,7 +32,7 @@ public class Ruin : MonoBehaviour {
                 print("complete");
                 break;
         }
-        if (Input.GetKeyDown("f")) {
+        if (currentScanTime == 0 && Input.GetKeyDown("f")) {
             state = ruinState.beingScanned;
         }
         else if (currentScanTime > 0 && (Input.GetKeyUp("f"))) {
