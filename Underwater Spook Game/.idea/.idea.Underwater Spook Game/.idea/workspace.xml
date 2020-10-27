@@ -21,6 +21,25 @@
   <component name="ChangeListManager">
     <list default="true" id="df670b57-ec13-4f63-a921-522bc31ecc41" name="Default Changelist" comment="Added Level WIP, fixed minor bugs">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/m_concrete.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/m_concrete.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/m_rust_metal.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/m_rust_metal.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/m_stone.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/m_stone.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Level_01.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Level_01.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Ruins/ruin_02.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Ruins/ruin_02.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Ruins/ruin_04.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Ruins/ruin_04.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PSX/PSX Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PSX/PSX Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Raw_Models/Level_01.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raw_Models/Level_01.blend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Raw_Models/Level_01.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raw_Models/Level_01.blend1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Raw_Models/ruin_02.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raw_Models/ruin_02.blend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Raw_Models/ruin_02.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raw_Models/ruin_02.blend1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ScanRuin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ScanRelic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ScanRuin.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ScanRelic.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ruin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ruin/Ruin.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ruin/Ruin.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,18 +50,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Underwater-Spook-Game/Underwater Spook Game/Assets/Models/Ruins/ruin_02.fbx.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Underwater-Spook-Game/Underwater Spook Game/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Underwater-Spook-Game/Underwater Spook Game/Assets/Models/Ruins/ruin_01.fbx.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Underwater-Spook-Game/Underwater Spook Game/Assets/Models/Ruins/ruin_03.fbx.meta" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ScanRuin.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ruin/Ruin.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ScanRuin.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ScanRelic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Relic/RelicCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Relic/Relic.cs" />
       </list>
     </option>
   </component>
@@ -115,6 +131,9 @@
       <workItem from="1603312645573" duration="421000" />
       <workItem from="1603483030270" duration="1542000" />
       <workItem from="1603727464137" duration="135000" />
+      <workItem from="1603814865668" duration="2510000" />
+      <workItem from="1603827768273" duration="3071000" />
+      <workItem from="1603833534383" duration="1683000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bug (weird movement) and fixed code convention">
       <created>1602616055006</created>
@@ -330,19 +349,19 @@
     </state>
     <state x="594" y="12" width="1223" height="852" key="SettingsEditor/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1603122547631" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1680.22.1680.1010@0.0.1920.1040" timestamp="1602688939501" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603727545391">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603834093224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1603727545391" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1603834093224" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.22.1680.1010@0.0.1920.1040" timestamp="1602619370442" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603220682898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1603220682898" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1603205265609">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1603815635646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1603205265609" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1603815635646" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603122413454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
