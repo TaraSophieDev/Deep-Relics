@@ -1,15 +1,22 @@
 ﻿using UnityEngine;
+using UnityEngine.Experimental.GlobalIllumination;
 using Random = UnityEngine.Random;
 
-public class Ruin : MonoBehaviour {
+public class Relic : MonoBehaviour {
+    
+    public  RelicCounter relicCounter;
+
+    private bool isComplete = false;
+    
     public int randMin = 5;
     public int randMax = 10;
 
+    public GameObject light;
     private float scanTime;
-    public float currentScanTime;
+    public float currentScanTime = 0.1f;
 
-    public ruinState state = ruinState.unscanned;
-    public enum ruinState {
+    public relicState state = relicState.unscanned;
+    public enum relicState {
         unscanned,
         beingScanned,
         incompleteScan,
@@ -18,31 +25,35 @@ public class Ruin : MonoBehaviour {
 
     private void Update() {
         switch (state) {
-            case ruinState.unscanned:
+            case relicState.unscanned:
                 print("unscanned");
                 break;
-            case ruinState.beingScanned:
+            case relicState.beingScanned:
                 print("being scanned");
                 break;
-            case ruinState.incompleteScan:
+            case relicState.incompleteScan:
                 resetTime();
                 print("incomplete");
                 break;
-            case ruinState.completeScan:
+            case relicState.completeScan:
+                isComplete = true;
                 print("complete");
+                light.SetActive(false);
+                //relicCounter.AddRelicCounterValue();
+                relicCounter.counterValue++;
                 break;
         }
-        if (currentScanTime == 0 && Input.GetKeyDown("f")) {
-            state = ruinState.beingScanned;
+        if (currentScanTime != 0.0f && Input.GetKeyDown("f")) {
+            state = relicState.beingScanned;
         }
-        else if (currentScanTime > 0 && (Input.GetKeyUp("f"))) {
-            state = ruinState.incompleteScan;
+        else if (currentScanTime != 0.0f && Input.GetKeyUp("f")) {
+            state = relicState.incompleteScan;
         }
-        else if (currentScanTime == 0 ) {
-            state = ruinState.completeScan;
+        else if (currentScanTime == 0 && !isComplete) {
+            state = relicState.completeScan;
         }
         else {
-            state = ruinState.unscanned;
+            state = relicState.unscanned;
         }
     }
 
@@ -60,12 +71,12 @@ public class Ruin : MonoBehaviour {
     }
     
     public void ScanTickDown(float TickDownAmount) {
-        state = ruinState.beingScanned;
+        state = relicState.beingScanned;
         if (currentScanTime > 0) {
             currentScanTime -= TickDownAmount;
         }
         else {
-            print("finished");
+            //state = relicState.completeScan;
         }
         currentScanTime = Mathf.Clamp(currentScanTime, 0, scanTime);
     }

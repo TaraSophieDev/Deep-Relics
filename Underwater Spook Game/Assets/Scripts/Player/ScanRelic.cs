@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
-public class ScanRuin : MonoBehaviour {
+public class ScanRelic : MonoBehaviour {
     
     public float range = 0;
 
@@ -20,7 +20,7 @@ public class ScanRuin : MonoBehaviour {
     
     void Update() {
         if (Input.GetKey("f")) {
-            RuinScanner();
+            RelicScanner();
         }
         /*if (Input.GetKeyDown("f")) {
             switch (state) {
@@ -35,7 +35,7 @@ public class ScanRuin : MonoBehaviour {
         }*/
     }
 
-    void RuinScanner() {
+    void RelicScanner() {
         Vector3 direction = transform.forward;
         Debug.DrawRay(transform.position, direction * range, Color.green, 2);
 
@@ -43,10 +43,10 @@ public class ScanRuin : MonoBehaviour {
         if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, range, layerMask)) {
             print(hit.transform.name);
             //just works in the if statement
-            if (hit.transform.TryGetComponent<Ruin>(out Ruin ruin)) {
-                ruin.ScanTickDown(Time.deltaTime);
+            if (hit.transform.TryGetComponent<Relic>(out Relic relic)) {
+                relic.ScanTickDown(Time.deltaTime);
                 //print("scanTime: " + ruin.scanTime);
-                print("currentScanTime: " +  ruin.currentScanTime);
+                print("currentScanTime: " +  relic.currentScanTime);
             }
         }
         else {
