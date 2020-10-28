@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="df670b57-ec13-4f63-a921-522bc31ecc41" name="Default Changelist" comment="Added Level WIP, fixed minor bugs">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +34,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Underwater-Spook-Game/Underwater Spook Game/Assets/Scripts/Relic/Relic.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Underwater-Spook-Game/Underwater Spook Game/Assets/Scripts/Relic/Relic.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Underwater-Spook-Game/Underwater Spook Game/Assets/Scripts/Player/SubmarineController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Underwater-Spook-Game/Underwater Spook Game/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -124,7 +124,7 @@
       <workItem from="1603835714602" duration="730000" />
       <workItem from="1603884364344" duration="64000" />
       <workItem from="1603903863155" duration="815000" />
-      <workItem from="1603904933891" duration="5036000" />
+      <workItem from="1603904933891" duration="5459000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bug (weird movement) and fixed code convention">
       <created>1602616055006</created>
@@ -315,7 +315,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603908832631</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added audio transition (WIP)">
+      <created>1603910308831</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1603910308831</updated>
+    </task>
+    <task id="LOCAL-00029" summary="added audio mixer stuff">
+      <created>1603910320391</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1603910320391</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +373,9 @@
     <MESSAGE value="added bubble particles, mat, meta, asset." />
     <MESSAGE value="-" />
     <MESSAGE value="fixed scan complete state bug (kinda)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed scan complete state bug (kinda)" />
+    <MESSAGE value="Added audio transition (WIP)" />
+    <MESSAGE value="added audio mixer stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="added audio mixer stuff" />
   </component>
   <component name="WindowStateProjectService">
     <state x="824" y="461" width="619" height="298" key="#C#" timestamp="1603134988239">
@@ -371,10 +387,10 @@
     </state>
     <state x="594" y="12" width="1223" height="852" key="SettingsEditor/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1603122547631" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1680.22.1680.1010@0.0.1920.1040" timestamp="1602688939501" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603905467650">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603910323882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1603905467650" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1603910323882" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.22.1680.1010@0.0.1920.1040" timestamp="1602619370442" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603220682898">
       <screen x="0" y="0" width="1920" height="1040" />
