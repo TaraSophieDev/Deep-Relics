@@ -1,7 +1,9 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using System.Runtime.InteropServices;
 using UnityEditor.UIElements;
 using UnityEngine;
+using UnityEngine.Audio;
 
 [RequireComponent(typeof(Rigidbody))]
 public class SubmarineController : MonoBehaviour {
@@ -19,6 +21,13 @@ public class SubmarineController : MonoBehaviour {
     public int backwardsAccel = 5;
     public int turnSpeed = 50;
     public int ascendSpeed = 10;
+
+    public AudioMixerSnapshot levelSnapshot;
+    public AudioMixerSnapshot chaseSnapshot;
+
+    private void Update() {
+        MusicTransition();
+    }
 
     void FixedUpdate() {
         SubmarineMovement();
@@ -80,6 +89,16 @@ public class SubmarineController : MonoBehaviour {
             rotationCam -= new Vector3(vRotationSpeed * Time.deltaTime, 0);
             rotationCam.x = Mathf.Clamp(rotationCam.x, minRotation, maxRotation);
             camera.transform.localEulerAngles = rotationCam;
+        }
+        
+    }
+
+    void MusicTransition() {
+        if (Input.GetKey("o")) {
+            chaseSnapshot.TransitionTo(1f);
+        }
+        else if (Input.GetKey("i")) {
+            levelSnapshot.TransitionTo(1f);
         }
         
     }
