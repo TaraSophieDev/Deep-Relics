@@ -24,6 +24,8 @@ public class Relic : MonoBehaviour {
     }
 
     private void Update() {
+        //This switch state is pure pile of garbage
+        //If you have a better solution for not destroying the relic and just turn off the light without the counter going crazy pls fix 🙏
         switch (state) {
             case relicState.unscanned:
                 print("unscanned");
@@ -38,6 +40,7 @@ public class Relic : MonoBehaviour {
                 break;
             case relicState.completeScan:
                 isComplete = true;
+                //Destroy(gameObject);
                 print("complete");
                 light.SetActive(false);
                 //relicCounter.AddRelicCounterValue();
@@ -49,15 +52,15 @@ public class Relic : MonoBehaviour {
             if (currentScanTime == 0 && !isComplete) {
                 state = relicState.completeScan;
             }
-            else if (currentScanTime > 0.0f && Input.GetKeyDown("f")) {
+            else if (!isComplete && currentScanTime > 0 && Input.GetKeyDown("f")) {
                 print("epic gamer moment");
                 state = relicState.beingScanned;
             }
-            else if (currentScanTime > 0.0f && Input.GetKeyUp("f")) {
+            else if (currentScanTime > 0 && Input.GetKeyUp("f")) {
                 state = relicState.incompleteScan;
             }
             else {
-                state = relicState.unscanned;
+                //state = relicState.unscanned;
             }
         }
     }
@@ -81,7 +84,9 @@ public class Relic : MonoBehaviour {
             currentScanTime -= TickDownAmount;
         }
         else {
-            //state = relicState.completeScan;
+            //Thx Jax ❤
+            Destroy(gameObject);
+            relicCounter.counterValue++;
         }
         currentScanTime = Mathf.Clamp(currentScanTime, 0, scanTime);
     }
