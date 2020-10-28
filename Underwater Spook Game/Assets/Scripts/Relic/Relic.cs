@@ -34,6 +34,7 @@ public class Relic : MonoBehaviour {
             case relicState.incompleteScan:
                 resetTime();
                 print("incomplete");
+                state = relicState.unscanned;
                 break;
             case relicState.completeScan:
                 isComplete = true;
@@ -43,17 +44,21 @@ public class Relic : MonoBehaviour {
                 relicCounter.counterValue++;
                 break;
         }
-        if (currentScanTime != 0.0f && Input.GetKeyDown("f")) {
-            state = relicState.beingScanned;
-        }
-        else if (currentScanTime != 0.0f && Input.GetKeyUp("f")) {
-            state = relicState.incompleteScan;
-        }
-        else if (currentScanTime == 0 && !isComplete) {
-            state = relicState.completeScan;
-        }
-        else {
-            state = relicState.unscanned;
+
+        if (state != relicState.completeScan && !isComplete) {
+            if (currentScanTime == 0 && !isComplete) {
+                state = relicState.completeScan;
+            }
+            else if (currentScanTime > 0.0f && Input.GetKeyDown("f")) {
+                print("epic gamer moment");
+                state = relicState.beingScanned;
+            }
+            else if (currentScanTime > 0.0f && Input.GetKeyUp("f")) {
+                state = relicState.incompleteScan;
+            }
+            else {
+                state = relicState.unscanned;
+            }
         }
     }
 
