@@ -10,6 +10,7 @@ public class SubmarineController : MonoBehaviour {
 
     public Rigidbody rbSm;
     public Camera camera;
+    public RelicCounter relicCounter;
 
     public int vRotationSpeed = 15;
     public float minRotation = -80f;
@@ -93,6 +94,7 @@ public class SubmarineController : MonoBehaviour {
         
     }
 
+    //TODO: delete it before releasing
     void MusicTransition() {
         if (Input.GetKey("o")) {
             chaseSnapshot.TransitionTo(1f);

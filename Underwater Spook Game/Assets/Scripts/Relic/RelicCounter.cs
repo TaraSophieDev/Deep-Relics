@@ -9,8 +9,4 @@ public class RelicCounter : MonoBehaviour {
     void Update() {
         counter.text = counterValue.ToString();
     }
-
-    public void AddRelicCounterValue() {
-        counterValue++;
-    }
 }
