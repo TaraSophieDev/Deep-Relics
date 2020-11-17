@@ -21,11 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="df670b57-ec13-4f63-a921-522bc31ecc41" name="Default Changelist" comment="Added Level WIP, fixed minor bugs">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PSX/PSX Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PSX/PSX Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Anglerfish.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Anglerfish.blend1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Fish.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Fish.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Fish.blend1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Fish.blend1.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Relic/RelicCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Relic/RelicCounter.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Relic/Relic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Relic/RelicCounter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" />
       </list>
     </option>
   </component>
@@ -126,6 +129,7 @@
       <workItem from="1603904933891" duration="5459000" />
       <workItem from="1603924227963" duration="2184000" />
       <workItem from="1603979657321" duration="661000" />
+      <workItem from="1605630545363" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bug (weird movement) and fixed code convention">
       <created>1602616055006</created>
