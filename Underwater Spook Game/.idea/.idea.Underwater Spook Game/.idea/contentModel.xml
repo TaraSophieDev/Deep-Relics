@@ -7,6 +7,9 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="Anglerfish" t="Include">
+            <e p="Anglerfish.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
             <e p="MusicChanger.cs" t="Include" />
             <e p="ScanRelic.cs" t="Include" />
