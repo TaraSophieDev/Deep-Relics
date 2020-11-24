@@ -22,13 +22,7 @@
     <list default="true" id="df670b57-ec13-4f63-a921-522bc31ecc41" name="Default Changelist" comment="Added Level WIP, fixed minor bugs">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Anglerfish.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Anglerfish.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Anglerfish.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Anglerfish.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Anglerfish.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Anglerfish.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Raw_Models/Anglerfish.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raw_Models/Anglerfish.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Raw_Models/Anglerfish.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Raw_Models/Anglerfish.blend1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +128,7 @@
       <workItem from="1605800042477" duration="1238000" />
       <workItem from="1605999840015" duration="2017000" />
       <workItem from="1606144736418" duration="3761000" />
+      <workItem from="1606162185514" duration="657000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bug (weird movement) and fixed code convention">
       <created>1602616055006</created>
