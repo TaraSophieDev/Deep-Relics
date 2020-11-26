@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df670b57-ec13-4f63-a921-522bc31ecc41" name="Default Changelist" comment="Added Level WIP, fixed minor bugs">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +129,9 @@
       <workItem from="1605999840015" duration="2017000" />
       <workItem from="1606144736418" duration="3761000" />
       <workItem from="1606162185514" duration="657000" />
+      <workItem from="1606250310919" duration="421000" />
+      <workItem from="1606339542086" duration="1366000" />
+      <workItem from="1606425380138" duration="1431000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bug (weird movement) and fixed code convention">
       <created>1602616055006</created>
@@ -368,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605630674348</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="meta">
+      <created>1606250329351</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1606250329351</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,12 +420,12 @@
     <MESSAGE value="fixed scan complete state bug (kinda)" />
     <MESSAGE value="Added audio transition (WIP)" />
     <MESSAGE value="added audio mixer stuff" />
-    <MESSAGE value="meta" />
     <MESSAGE value="created anglerfish script" />
     <MESSAGE value="added anglerfish model and texture" />
     <MESSAGE value="removed old anglerfish file that was called &quot;fish&quot;" />
     <MESSAGE value="meta &amp; xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="meta &amp; xml" />
+    <MESSAGE value="meta" />
+    <option name="LAST_COMMIT_MESSAGE" value="meta" />
   </component>
   <component name="WindowStateProjectService">
     <state x="824" y="461" width="619" height="298" key="#C#" timestamp="1603134988239">
@@ -427,10 +437,10 @@
     </state>
     <state x="594" y="12" width="1223" height="852" key="SettingsEditor/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1603122547631" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1680.22.1680.1010@0.0.1920.1040" timestamp="1602688939501" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605630680417">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606250337812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1605630680417" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1606250337812" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.22.1680.1010@0.0.1920.1040" timestamp="1602619370442" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603220682898">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -440,9 +450,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1603815635646" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603122413454">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606340251156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1603122413454" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1606340251156" />
   </component>
 </project>

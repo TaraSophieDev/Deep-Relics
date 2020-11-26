@@ -11,6 +11,8 @@ public class Anglerfish : MonoBehaviour {
     public float speed;
     private Transform target;
     public float turnSpeed = 0f;
+    private Rigidbody rb;
+    public float targetDistance; 
 
     void Start() {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
@@ -39,7 +41,11 @@ public class Anglerfish : MonoBehaviour {
     }
 
     void MoveToPlayer() {
-        if(Vector3.Distance(transform.position, target.position) > 50)
-            transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+        targetDistance = Vector3.Distance(target.position, transform.position);
+        Vector3 direction = target.position - transform.position;
+        if (targetDistance > 40f) {
+            transform.Translate(Vector3.forward * (speed * Time.deltaTime));
+        }
+        //transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
     }
 }
