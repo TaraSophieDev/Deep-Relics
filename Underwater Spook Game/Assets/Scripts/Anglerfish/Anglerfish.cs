@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Numerics;
+using System.Security.Cryptography;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.AI;
@@ -16,11 +17,11 @@ public class Anglerfish : MonoBehaviour {
 
     void Start() {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-        
         transform.Rotate(new Vector3(0, 90, 0));
+        rb.isKinematic = true;
     }
 
-    private void Update() {
+    private void FixedUpdate() {
 
         LookAtPlayer();
         MoveToPlayer();
@@ -44,8 +45,9 @@ public class Anglerfish : MonoBehaviour {
         targetDistance = Vector3.Distance(target.position, transform.position);
         Vector3 direction = target.position - transform.position;
         if (targetDistance > 40f) {
-            transform.Translate(Vector3.forward * (speed * Time.deltaTime));
+            transform.position = targetDistance * (speed * Time.deltaTime);
         }
+        rb.MovePosition(transform.position - target.position * speed * Time.deltaTime);
         //transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
     }
 }
