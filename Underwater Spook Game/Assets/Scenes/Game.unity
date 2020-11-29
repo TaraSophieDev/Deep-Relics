@@ -2001,7 +2001,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5218217873170540934, guid: b8918f549e4a3b54991e59776d743c57, type: 3}
-    - {fileID: 522797815953724021, guid: b8918f549e4a3b54991e59776d743c57, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b8918f549e4a3b54991e59776d743c57, type: 3}
 --- !u!1 &1466077271 stripped
 GameObject:
@@ -2627,8 +2626,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af86523fdedb3254b81534e91866bdb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 20
   turnSpeed: 10
+  rb: {fileID: 1827355382}
   targetDistance: 0
 --- !u!95 &1827355380
 Animator:
@@ -2661,7 +2661,7 @@ Rigidbody:
   m_Drag: 1
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3

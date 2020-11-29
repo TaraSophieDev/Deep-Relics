@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df670b57-ec13-4f63-a921-522bc31ecc41" name="Default Changelist" comment="Added Level WIP, fixed minor bugs">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Anglerfish.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Anglerfish.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" afterDir="false" />
     </list>
@@ -57,6 +59,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -131,7 +134,11 @@
       <workItem from="1606162185514" duration="657000" />
       <workItem from="1606250310919" duration="421000" />
       <workItem from="1606339542086" duration="1366000" />
-      <workItem from="1606425380138" duration="1431000" />
+      <workItem from="1606425380138" duration="1727000" />
+      <workItem from="1606575188863" duration="609000" />
+      <workItem from="1606576068368" duration="1803000" />
+      <workItem from="1606578024367" duration="59000" />
+      <workItem from="1606685537994" duration="1903000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bug (weird movement) and fixed code convention">
       <created>1602616055006</created>
@@ -378,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606250329351</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="tried fixing colission bug, but not fixed.">
+      <created>1606426950700</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1606426950700</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +414,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Changed draw and fog distance" />
     <MESSAGE value="changed level settings, added material." />
     <MESSAGE value="Added Ruin.cs" />
     <MESSAGE value="Added ScanRuin.cs WIP" />
@@ -425,7 +438,8 @@
     <MESSAGE value="removed old anglerfish file that was called &quot;fish&quot;" />
     <MESSAGE value="meta &amp; xml" />
     <MESSAGE value="meta" />
-    <option name="LAST_COMMIT_MESSAGE" value="meta" />
+    <MESSAGE value="tried fixing colission bug, but not fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="tried fixing colission bug, but not fixed." />
   </component>
   <component name="WindowStateProjectService">
     <state x="824" y="461" width="619" height="298" key="#C#" timestamp="1603134988239">
@@ -437,10 +451,10 @@
     </state>
     <state x="594" y="12" width="1223" height="852" key="SettingsEditor/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1603122547631" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1680.22.1680.1010@0.0.1920.1040" timestamp="1602688939501" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606250337812">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606426956861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1606250337812" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1606426956861" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.22.1680.1010@0.0.1920.1040" timestamp="1602619370442" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603220682898">
       <screen x="0" y="0" width="1920" height="1040" />
