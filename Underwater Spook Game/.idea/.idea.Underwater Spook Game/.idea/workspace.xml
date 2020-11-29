@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df670b57-ec13-4f63-a921-522bc31ecc41" name="Default Changelist" comment="Added Level WIP, fixed minor bugs">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" afterDir="false" />
-    </list>
+    <list default="true" id="df670b57-ec13-4f63-a921-522bc31ecc41" name="Default Changelist" comment="Added Level WIP, fixed minor bugs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +30,7 @@
     <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Underwater-Spook-Game/Underwater Spook Game/Assets/Scripts/Anglerfish/Anglerfish.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Underwater-Spook-Game/Underwater Spook Game/Assets/Prefabs/Anglerfish.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Underwater-Spook-Game/Underwater Spook Game/Assets/Scripts/Anglerfish/Anglerfish.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Underwater-Spook-Game/Underwater Spook Game/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
@@ -139,7 +138,7 @@
       <workItem from="1606575188863" duration="609000" />
       <workItem from="1606576068368" duration="1803000" />
       <workItem from="1606578024367" duration="59000" />
-      <workItem from="1606685537994" duration="2236000" />
+      <workItem from="1606685537994" duration="2361000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bug (weird movement) and fixed code convention">
       <created>1602616055006</created>
@@ -400,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606687818809</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="added distance movement stop.">
+      <created>1606687890690</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1606687890690</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +428,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Added Ruin.cs" />
     <MESSAGE value="Added ScanRuin.cs WIP" />
     <MESSAGE value="Rewrote Input recognition and add print for raycast hit nothing" />
     <MESSAGE value="added sky border, enhanced map" />
@@ -447,7 +452,8 @@
     <MESSAGE value="meta" />
     <MESSAGE value="tried fixing colission bug, but not fixed." />
     <MESSAGE value="fixed fish ai movement and collision." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed fish ai movement and collision." />
+    <MESSAGE value="added distance movement stop." />
+    <option name="LAST_COMMIT_MESSAGE" value="added distance movement stop." />
   </component>
   <component name="WindowStateProjectService">
     <state x="824" y="461" width="619" height="298" key="#C#" timestamp="1603134988239">
@@ -459,10 +465,10 @@
     </state>
     <state x="594" y="12" width="1223" height="852" key="SettingsEditor/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1603122547631" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1680.22.1680.1010@0.0.1920.1040" timestamp="1602688939501" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606426956861">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606687896777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1606426956861" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1606687896777" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.22.1680.1010@0.0.1920.1040" timestamp="1602619370442" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603220682898">
       <screen x="0" y="0" width="1920" height="1040" />
