@@ -50,9 +50,8 @@ public class Anglerfish : MonoBehaviour {
     }
 
     void MoveToTarget(Vector3 direction) {
-        rb.velocity = direction * speed;
-        if (targetDistance > 30f) {
-            
+        if (targetDistance > 50f) {
+            rb.velocity = direction * speed;
         }
     }
 }
