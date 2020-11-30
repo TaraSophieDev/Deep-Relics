@@ -9,6 +9,7 @@ public class Anglerfish : MonoBehaviour {
     public float turnSpeed = 0f;
     public Rigidbody rb;
     public float targetDistance;
+    public int bitten;
     private Vector3 movement;
     public anglerfishState state = anglerfishState.chasing;
 
@@ -69,6 +70,7 @@ public class Anglerfish : MonoBehaviour {
         }
         else if (targetDistance <= 50f && state == anglerfishState.chasing) {
             state = anglerfishState.biting;
+            bitten++;
         }
     }
 }
