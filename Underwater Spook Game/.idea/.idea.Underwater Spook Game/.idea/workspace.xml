@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df670b57-ec13-4f63-a921-522bc31ecc41" name="Default Changelist" comment="Added Level WIP, fixed minor bugs" />
+    <list default="true" id="df670b57-ec13-4f63-a921-522bc31ecc41" name="Default Changelist" comment="Added Level WIP, fixed minor bugs">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Underwater Spook Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Anglerfish.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Anglerfish.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,6 +140,8 @@
       <workItem from="1606578024367" duration="59000" />
       <workItem from="1606685537994" duration="2361000" />
       <workItem from="1606727930137" duration="1938000" />
+      <workItem from="1606762109231" duration="2292000" />
+      <workItem from="1606764673938" duration="709000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bug (weird movement) and fixed code convention">
       <created>1602616055006</created>

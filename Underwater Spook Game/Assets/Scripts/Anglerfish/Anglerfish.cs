@@ -1,9 +1,4 @@
-﻿using System;
-using System.Numerics;
-using System.Security.Cryptography;
-using UnityEditor.Experimental.GraphView;
-using UnityEngine;
-using UnityEngine.AI;
+﻿using UnityEngine;
 using Quaternion = UnityEngine.Quaternion;
 using Vector3 = UnityEngine.Vector3;
 
@@ -15,7 +10,6 @@ public class Anglerfish : MonoBehaviour {
     public Rigidbody rb;
     public float targetDistance;
     private Vector3 movement;
-    private Animator anim;
     public anglerfishState state = anglerfishState.chasing;
 
     public enum anglerfishState {
@@ -26,7 +20,7 @@ public class Anglerfish : MonoBehaviour {
         //rb = this.GetComponent<Rigidbody>();
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         transform.Rotate(new Vector3(0, 90, 0));
-        //rb.isKinematic = true;
+        targetDistance = 100f;
     }
 
     private void Update() {
@@ -40,11 +34,11 @@ public class Anglerfish : MonoBehaviour {
             case anglerfishState.chasing:
                 LookAtTarget();
                 print("chasing");
-                anim.Play("swimming");
                 break;
             case anglerfishState.biting:
-                anim.Play("biting");
                 print("biting");
+                //Application.Quit();
+                state = anglerfishState.chasing;
                 break;
         }
     }
@@ -70,10 +64,10 @@ public class Anglerfish : MonoBehaviour {
     }
 
     void MoveToTarget(Vector3 direction) {
-        if (targetDistance > 70f) {
+        if (targetDistance > 70f && state != anglerfishState.biting) {
             rb.velocity = direction * speed;
         }
-        else if (targetDistance > 50f && state == anglerfishState.chasing) {
+        else if (targetDistance <= 50f && state == anglerfishState.chasing) {
             state = anglerfishState.biting;
         }
     }
