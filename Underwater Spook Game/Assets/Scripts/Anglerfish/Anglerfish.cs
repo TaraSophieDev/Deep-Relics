@@ -15,7 +15,13 @@ public class Anglerfish : MonoBehaviour {
     public Rigidbody rb;
     public float targetDistance;
     private Vector3 movement;
+    private Animator anim;
+    public anglerfishState state = anglerfishState.chasing;
 
+    public enum anglerfishState {
+        chasing,
+        biting
+    }
     void Start() {
         //rb = this.GetComponent<Rigidbody>();
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
@@ -24,15 +30,29 @@ public class Anglerfish : MonoBehaviour {
     }
 
     private void Update() {
-        LookAtTarget();
+        
         targetDistance = Vector3.Distance(target.position, transform.position);
         Vector3 direction = target.position - transform.position;
         direction.Normalize();
         movement = direction;
+
+        switch (state) {
+            case anglerfishState.chasing:
+                LookAtTarget();
+                print("chasing");
+                anim.Play("swimming");
+                break;
+            case anglerfishState.biting:
+                anim.Play("biting");
+                print("biting");
+                break;
+        }
     }
 
     private void FixedUpdate() {
-        MoveToTarget(movement);
+        if (state == anglerfishState.chasing) {
+            MoveToTarget(movement);
+        }
     }
 
     void LookAtTarget() {
@@ -50,8 +70,11 @@ public class Anglerfish : MonoBehaviour {
     }
 
     void MoveToTarget(Vector3 direction) {
-        if (targetDistance > 50f) {
+        if (targetDistance > 70f) {
             rb.velocity = direction * speed;
+        }
+        else if (targetDistance > 50f && state == anglerfishState.chasing) {
+            state = anglerfishState.biting;
         }
     }
 }
