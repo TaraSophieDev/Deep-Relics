@@ -1957,7 +1957,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2145511832525584032, guid: b8918f549e4a3b54991e59776d743c57, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 135.06914
+      value: 135.8
       objectReference: {fileID: 0}
     - target: {fileID: 2145511832525584032, guid: b8918f549e4a3b54991e59776d743c57, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2610,10 +2610,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 18
-  m_Height: 75
+  m_Radius: 17
+  m_Height: 70
   m_Direction: 2
-  m_Center: {x: -0.49437177, y: 1.6496887, z: -3.420082}
+  m_Center: {x: -0.49437177, y: 1.6496887, z: -0.79}
 --- !u!114 &1827355379
 MonoBehaviour:
   m_ObjectHideFlags: 0
