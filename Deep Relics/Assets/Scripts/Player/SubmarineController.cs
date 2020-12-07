@@ -22,13 +22,7 @@ public class SubmarineController : MonoBehaviour {
     public int backwardsAccel = 5;
     public int turnSpeed = 50;
     public int ascendSpeed = 10;
-
-    public AudioMixerSnapshot levelSnapshot;
-    public AudioMixerSnapshot chaseSnapshot;
-
-    private void Update() {
-        MusicTransition();
-    }
+    
 
     void FixedUpdate() {
         SubmarineMovement();
@@ -60,6 +54,12 @@ public class SubmarineController : MonoBehaviour {
             //rbSm.AddTorque(-Vector3.up * turnSpeed);
             rbSm.transform.rotation = Quaternion.Euler(rbSm.transform.rotation.eulerAngles + new Vector3(0f, -turnSpeed * Time.deltaTime, 0));
         }
+        /*else if (Input.GetKeyDown("r")) {
+            rbSm.transform.rotation = Quaternion.Euler(rbSm.transform.rotation.eulerAngles + new Vector3(0f, 180, 0));
+        }
+        else if (Input.GetKeyUp("r")) {
+            rbSm.transform.rotation = Quaternion.Euler(rbSm.transform.rotation.eulerAngles + new Vector3(0f, 0, 0));
+        }*/
     }
 
     void SubmarineStrafe() {
@@ -91,17 +91,5 @@ public class SubmarineController : MonoBehaviour {
             rotationCam.x = Mathf.Clamp(rotationCam.x, minRotation, maxRotation);
             camera.transform.localEulerAngles = rotationCam;
         }
-        
-    }
-
-    //TODO: delete it before releasing
-    void MusicTransition() {
-        if (Input.GetKey("o")) {
-            chaseSnapshot.TransitionTo(1f);
-        }
-        else if (Input.GetKey("i")) {
-            levelSnapshot.TransitionTo(1f);
-        }
-        
     }
 }
