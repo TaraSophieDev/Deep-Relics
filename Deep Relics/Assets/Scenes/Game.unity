@@ -152,19 +152,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8603729329850565526, guid: 222872d28793f894fafaf5608390b9ae, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.20574273
+      value: 0.056633037
       objectReference: {fileID: 0}
     - target: {fileID: 8603729329850565526, guid: 222872d28793f894fafaf5608390b9ae, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.8009597
+      value: -0.8250208
       objectReference: {fileID: 0}
     - target: {fileID: 8603729329850565526, guid: 222872d28793f894fafaf5608390b9ae, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.060203794
+      value: -0.16087478
       objectReference: {fileID: 0}
     - target: {fileID: 8603729329850565526, guid: 222872d28793f894fafaf5608390b9ae, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.55902493
+      value: -0.5387511
       objectReference: {fileID: 0}
     - target: {fileID: 8603729329850565526, guid: 222872d28793f894fafaf5608390b9ae, type: 3}
       propertyPath: m_RootOrder
@@ -180,7 +180,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8603729329850565526, guid: 222872d28793f894fafaf5608390b9ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -16.11
+      value: 4.849
       objectReference: {fileID: 0}
     - target: {fileID: 8947885623976007980, guid: 222872d28793f894fafaf5608390b9ae, type: 3}
       propertyPath: m_Name
@@ -216,8 +216,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   relicCounter: {fileID: 1907613299}
-  randMin: 5
-  randMax: 10
+  randMin: 1
+  randMax: 5
   light: {fileID: 30370019}
   currentScanTime: 0.1
   state: 0
@@ -435,11 +435,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 223974226}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc33bb185d21b1648ae8056c49c5b65f, type: 3}
+  m_Script: {fileID: 11500000, guid: 179f251380eddff4b92468b8542c7316, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  counterValue: 0
-  counter: {fileID: 223974229}
+  healthValue: 100
+  health: {fileID: 223974229}
+  decimalHealthValue: 100
 --- !u!114 &223974229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -654,8 +655,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   relicCounter: {fileID: 1907613299}
-  randMin: 5
-  randMax: 10
+  randMin: 1
+  randMax: 5
   light: {fileID: 249691836}
   currentScanTime: 0.1
   state: 0
@@ -847,7 +848,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6545321947439678927, guid: e75155229c2d258448976dbb934362e0, type: 3}
       propertyPath: turnSpeed
-      value: 35
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 6545321947439678927, guid: e75155229c2d258448976dbb934362e0, type: 3}
       propertyPath: camera
@@ -859,7 +860,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6545321947439678927, guid: e75155229c2d258448976dbb934362e0, type: 3}
       propertyPath: ascendSpeed
-      value: 18
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 6545321947439678927, guid: e75155229c2d258448976dbb934362e0, type: 3}
       propertyPath: minRotation
@@ -883,7 +884,7 @@ PrefabInstance:
       objectReference: {fileID: 1907613299}
     - target: {fileID: 6545321947439678927, guid: e75155229c2d258448976dbb934362e0, type: 3}
       propertyPath: vRotationSpeed
-      value: 23
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7008706420800736440, guid: e75155229c2d258448976dbb934362e0, type: 3}
       propertyPath: m_RootOrder
@@ -1374,8 +1375,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   relicCounter: {fileID: 1907613299}
-  randMin: 5
-  randMax: 10
+  randMin: 1
+  randMax: 5
   light: {fileID: 611002925}
   currentScanTime: 0.1
   state: 0
@@ -1588,8 +1589,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   relicCounter: {fileID: 1907613299}
-  randMin: 5
-  randMax: 10
+  randMin: 1
+  randMax: 5
   light: {fileID: 810045573}
   currentScanTime: 0.1
   state: 0
@@ -1832,8 +1833,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   relicCounter: {fileID: 1907613299}
-  randMin: 5
-  randMax: 10
+  randMin: 1
+  randMax: 5
   light: {fileID: 1269083718}
   currentScanTime: 0.1
   state: 0
@@ -2322,8 +2323,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   relicCounter: {fileID: 1907613299}
-  randMin: 5
-  randMax: 10
+  randMin: 1
+  randMax: 5
   light: {fileID: 1653958422}
   currentScanTime: 0.1
   state: 0
@@ -2420,8 +2421,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   relicCounter: {fileID: 1907613299}
-  randMin: 5
-  randMax: 10
+  randMin: 1
+  randMax: 5
   light: {fileID: 1700483235}
   currentScanTime: 0.1
   state: 0
@@ -2505,8 +2506,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   relicCounter: {fileID: 1907613299}
-  randMin: 5
-  randMax: 10
+  randMin: 1
+  randMax: 5
   light: {fileID: 97433265}
   currentScanTime: 0.1
   state: 0
@@ -2613,8 +2614,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   relicCounter: {fileID: 1907613299}
-  randMin: 5
-  randMax: 10
+  randMin: 1
+  randMax: 5
   light: {fileID: 1781968706}
   currentScanTime: 0.1
   state: 0
@@ -2782,6 +2783,8 @@ MonoBehaviour:
   targetDistance: 0
   bitten: 0
   state: 0
+  levelSnapshot: {fileID: 24500006, guid: 936830d6f0e6ea64cbde2146ac345a6f, type: 2}
+  chaseSnapshot: {fileID: -6639980126169914153, guid: 936830d6f0e6ea64cbde2146ac345a6f, type: 2}
 --- !u!95 &1827355380
 Animator:
   serializedVersion: 3
@@ -3159,8 +3162,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   relicCounter: {fileID: 1907613299}
-  randMin: 5
-  randMax: 10
+  randMin: 1
+  randMax: 5
   light: {fileID: 2072996862}
   currentScanTime: 0.1
   state: 0

@@ -1,268 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ca3a36c8-d071-437e-8c15-c355a929c03f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/.idea/.idea.Underwater Spook Game/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/.idea/.idea.Underwater Spook Game/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/.idea/.idea.Underwater Spook Game/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/.idea/.idea.Underwater Spook Game/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/.idea/.idea.Underwater Spook Game/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/.idea/.idea.Underwater Spook Game/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/.idea/.idea.Underwater Spook Game/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/.idea/.idea.Underwater Spook Game/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/.idea/.idea.Underwater Spook Game/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/.idea/.idea.Underwater Spook Game/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Animations/Anglerfish.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Animations/Anglerfish.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Audio.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Audio/Music.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Audio/Music/Chase Music (F).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Audio/Music/Chase Music (F).wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Audio/Music/Level Music (F).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Audio/Music/Level Music (F).wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Audio/MusicMixer.mixer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Audio/MusicMixer.mixer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Audio/SFX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Fonts/PSXBASIC.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Fonts/PSXBASIC.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Images.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Images/ruin23.10.2020.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Images/ruin23.10.2020.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/Bubble.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/Bubble.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/anglerfish.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/anglerfish.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/concrete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/concrete.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/facade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/facade.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/facade_emission.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/facade_emission.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/m_anglerfish.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/m_anglerfish.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/m_concrete.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/m_concrete.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/m_facade.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/m_facade.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/m_grid.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/m_grid.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/m_rust_metal.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/m_rust_metal.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/m_stone.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/m_stone.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/m_submarine.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/m_submarine.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/rock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/rock.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/rust_metal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Materials/rust_metal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Misc Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Misc Textures/BubbleSimple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Misc Textures/BubbleSimple.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Models/Anglerfish.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Models/Anglerfish.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Models/Level_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Models/Level_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Models/Ruins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Models/Ruins/ruin_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Models/Ruins/ruin_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Models/Ruins/ruin_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Models/Ruins/ruin_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Models/Ruins/ruin_03.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Models/Ruins/ruin_03.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Models/Ruins/ruin_04.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Models/Ruins/ruin_04.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Models/Ruins/ruin_05.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Models/Ruins/ruin_05.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Models/relic.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Models/relic.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/PSX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/PSX/PSX Profile.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/PSX/PSX Profile.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/PSX/PSX.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/PSX/PSX.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/PSX/PSXRenderPipelineAsset.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/PSX/PSXRenderPipelineAsset.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/PSX/PSXRenderPipelineResources.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/PSX/PSXRenderPipelineResources.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/PSX/default_material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/PSX/default_material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Prefabs/Anglerfish.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Prefabs/Anglerfish.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Prefabs/Bubbles.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Prefabs/Bubbles.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Prefabs/Relic.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Prefabs/Relic.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Prefabs/Submarine.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Prefabs/Submarine.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/Anglerfish.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/Anglerfish.blend.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/Anglerfish.blend1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/Anglerfish.blend1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/Level_01.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/Level_01.blend.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/Level_01.blend1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/Level_01.blend1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/relic.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/relic.blend.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/relic.blend1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/relic.blend1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_01.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_01.blend.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_01.blend1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_01.blend1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_02.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_02.blend.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_02.blend1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_02.blend1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_03.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_03.blend.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_03.blend1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_03.blend1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_04.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_04.blend.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_04.blend1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_04.blend1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_05.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_05.blend.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_05.blend1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Raw_Models/ruin_05.blend1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scenes/Game.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scenes/Game.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scenes/Game.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scenes/Game/LightingData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scenes/Game/LightingData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scenes/Game/ReflectionProbe-0.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scenes/Game/ReflectionProbe-0.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scenes/SampleSceneSettings.lighting" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scenes/SampleSceneSettings.lighting.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scripts/Anglerfish.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scripts/Anglerfish/Anglerfish.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scripts/Anglerfish/Anglerfish.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scripts/Player.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scripts/Player/MusicChanger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scripts/Player/MusicChanger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scripts/Player/ScanRelic.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scripts/Player/ScanRelic.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scripts/Player/SubmarineController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scripts/Player/SubmarineController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scripts/Relic.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scripts/Relic/Relic.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scripts/Relic/Relic.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scripts/Relic/RelicCounter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Scripts/Relic/RelicCounter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Shaders/Trasparent.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Shaders/Trasparent/psx-trasparent-vertexlit.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Shaders/Trasparent/psx-trasparent-vertexlit.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Documentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/Sprite Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/Style Sheets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMPro.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Sprites/EmojiOne.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Sprites/EmojiOne.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Textures/Grid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Assets/Textures/Grid.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Packages/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/Packages/packages-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/AudioManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/DynamicsManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/EditorSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/InputManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/PresetManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/ProjectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/ProjectVersion.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/QualitySettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/TagManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/TimeManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/TimelineSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/VFXManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/VersionControlSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/ProjectSettings/XRSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Underwater Spook Game/UserSettings/EditorUserSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Deep Relics/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Deep Relics/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Deep Relics/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Deep Relics/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Deep Relics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Deep Relics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/MusicChanger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/MusicChanger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,6 +36,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/SubmarineHealth.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1l41GBhFvZgz3hBVW7bAq7MmKgt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -314,6 +91,9 @@
       <option name="presentableId" value="Default" />
       <updated>1606841455573</updated>
       <workItem from="1606841475611" duration="469000" />
+      <workItem from="1606924701900" duration="2148000" />
+      <workItem from="1607279366765" duration="1177000" />
+      <workItem from="1607374410081" duration="480000" />
     </task>
     <servers />
   </component>
@@ -322,7 +102,29 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606925259777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1606925259777" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1607374544042">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1607374544042" />
   </component>
 </project>
