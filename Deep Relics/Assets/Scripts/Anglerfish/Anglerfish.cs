@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Audio;
 using Quaternion = UnityEngine.Quaternion;
 using Vector3 = UnityEngine.Vector3;
 
@@ -12,6 +13,9 @@ public class Anglerfish : MonoBehaviour {
     public int bitten;
     private Vector3 movement;
     public anglerfishState state = anglerfishState.chasing;
+    
+    public AudioMixerSnapshot levelSnapshot;
+    public AudioMixerSnapshot chaseSnapshot;
 
     public enum anglerfishState {
         chasing,
@@ -25,6 +29,7 @@ public class Anglerfish : MonoBehaviour {
     }
 
     private void Update() {
+        ChangeMusic();
         
         targetDistance = Vector3.Distance(target.position, transform.position);
         Vector3 direction = target.position - transform.position;
@@ -71,6 +76,15 @@ public class Anglerfish : MonoBehaviour {
         else if (targetDistance <= 50f && state == anglerfishState.chasing) {
             state = anglerfishState.biting;
             bitten++;
+        }
+    }
+
+    void ChangeMusic() {
+        if (targetDistance > 170f) {
+            levelSnapshot.TransitionTo(3f);
+        }
+        else if (targetDistance < 170f) {
+            chaseSnapshot.TransitionTo(2f);
         }
     }
 }
