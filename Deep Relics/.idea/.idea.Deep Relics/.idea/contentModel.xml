@@ -10,6 +10,9 @@
           <e p="Anglerfish" t="Include">
             <e p="Anglerfish.cs" t="Include" />
           </e>
+          <e p="Other" t="Include">
+            <e p="WinScreenController.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
             <e p="ScanRelic.cs" t="Include" />
             <e p="SubmarineController.cs" t="Include" />

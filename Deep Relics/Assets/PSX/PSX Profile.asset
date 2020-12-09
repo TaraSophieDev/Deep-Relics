@@ -74,10 +74,10 @@ MonoBehaviour:
     m_Value: 1
   fogFalloffMode:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 0
   color:
     m_OverrideState: 1
-    m_Value: {r: 0.23633854, g: 0.3583779, b: 0.4433962, a: 1}
+    m_Value: {r: 0.16981131, g: 0.16260234, b: 0.16260234, a: 1}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
