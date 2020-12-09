@@ -31,6 +31,7 @@ public class SubmarineController : MonoBehaviour {
         SubmarineAscend();
 
         CameraYRotation();
+        CloseGame();
     }
 
     void SubmarineMovement() {
@@ -90,6 +91,12 @@ public class SubmarineController : MonoBehaviour {
             rotationCam -= new Vector3(vRotationSpeed * Time.deltaTime, 0);
             rotationCam.x = Mathf.Clamp(rotationCam.x, minRotation, maxRotation);
             camera.transform.localEulerAngles = rotationCam;
+        }
+    }
+
+    private void CloseGame() {
+        if (Input.GetKey(KeyCode.Escape)) {
+            Application.Quit();
         }
     }
 }
