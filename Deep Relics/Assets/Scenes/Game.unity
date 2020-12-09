@@ -439,8 +439,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthValue: 100
-  health: {fileID: 223974229}
   decimalHealthValue: 100
+  playerHealth: 100
+  health: {fileID: 223974229}
 --- !u!114 &223974229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2783,6 +2784,8 @@ MonoBehaviour:
   targetDistance: 0
   bitten: 0
   state: 0
+  damage: 10
+  sH: {fileID: 223974228}
   levelSnapshot: {fileID: 24500006, guid: 936830d6f0e6ea64cbde2146ac345a6f, type: 2}
   chaseSnapshot: {fileID: -6639980126169914153, guid: 936830d6f0e6ea64cbde2146ac345a6f, type: 2}
 --- !u!95 &1827355380
