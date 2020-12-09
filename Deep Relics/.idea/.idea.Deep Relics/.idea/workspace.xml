@@ -21,9 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ca3a36c8-d071-437e-8c15-c355a929c03f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Deep Relics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Deep Relics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +33,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Deep-Relics/Deep Relics/Assets/Scripts/Anglerfish/Anglerfish.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/SubmarineHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Deep-Relics/Deep Relics/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Deep-Relics/Deep Relics/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Deep-Relics/Deep Relics/Assets/Scripts/Player/SubmarineController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Deep-Relics/Deep Relics/Assets/Scripts/Anglerfish/Anglerfish.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -101,7 +102,7 @@
       <workItem from="1607279366765" duration="1177000" />
       <workItem from="1607374410081" duration="3024000" />
       <workItem from="1607526774164" duration="1830000" />
-      <workItem from="1607530835829" duration="2499000" />
+      <workItem from="1607530835829" duration="3506000" />
     </task>
     <task id="LOCAL-00001" summary="added music transition with targetDistance">
       <created>1607375123797</created>
@@ -131,7 +132,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607375183570</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="implemented Damage()">
+      <created>1607533505543</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607533505543</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added SubmarineHealth.cs and a health system">
+      <created>1607533537079</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607533537079</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added CloseGame()">
+      <created>1607533557030</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607533557030</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,17 +179,20 @@
     <MESSAGE value="Deleted music changer file." />
     <MESSAGE value="Removed music transitioning via buttons on SubmarineController.cs" />
     <MESSAGE value="meta" />
-    <option name="LAST_COMMIT_MESSAGE" value="meta" />
+    <MESSAGE value="implemented Damage()" />
+    <MESSAGE value="added SubmarineHealth.cs and a health system" />
+    <MESSAGE value="Added CloseGame()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CloseGame()" />
   </component>
   <component name="WindowStateProjectService">
     <state x="664" y="340" key="#Notifications" timestamp="1607526931997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="340" key="#Notifications/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1607526931997" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1607375187016">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1607533561830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1607375187016" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1607533561830" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606925259777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
