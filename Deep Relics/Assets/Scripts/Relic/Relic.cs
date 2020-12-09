@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Experimental.GlobalIllumination;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 public class Relic : MonoBehaviour {
@@ -24,6 +25,7 @@ public class Relic : MonoBehaviour {
     }
 
     private void Update() {
+        AllRelicsObtained();
         //This switch state is pure pile of garbage
         //If you have a better solution for not destroying the relic and just turn off the light without the counter going crazy pls fix 🙏
         switch (state) {
@@ -89,5 +91,11 @@ public class Relic : MonoBehaviour {
             relicCounter.counterValue++;
         }
         currentScanTime = Mathf.Clamp(currentScanTime, 0, scanTime);
+    }
+
+    public void AllRelicsObtained() {
+        if (relicCounter.counterValue == 10) {
+            SceneManager.LoadScene("Scenes/Win");
+        }
     }
 }
