@@ -13,6 +13,9 @@ public class Anglerfish : MonoBehaviour {
     public int bitten;
     private Vector3 movement;
     public anglerfishState state = anglerfishState.chasing;
+
+    [SerializeField] private float damage;
+    [SerializeField] private SubmarineHealth sH;
     
     public AudioMixerSnapshot levelSnapshot;
     public AudioMixerSnapshot chaseSnapshot;
@@ -75,7 +78,7 @@ public class Anglerfish : MonoBehaviour {
         }
         else if (targetDistance <= 50f && state == anglerfishState.chasing) {
             state = anglerfishState.biting;
-            bitten++;
+            Damage();
         }
     }
 
@@ -86,5 +89,10 @@ public class Anglerfish : MonoBehaviour {
         else if (targetDistance < 170f) {
             chaseSnapshot.TransitionTo(2f);
         }
+    }
+
+    void Damage() {
+        sH.playerHealth -= damage * Time.deltaTime;
+        sH.UpdateHealth();
     }
 }
