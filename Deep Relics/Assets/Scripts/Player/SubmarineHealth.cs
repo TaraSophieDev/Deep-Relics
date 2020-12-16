@@ -1,9 +1,5 @@
-﻿
-using System;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
-using UnityEngine.Rendering;
-using UnityEngine.UI;
 
 public class SubmarineHealth : MonoBehaviour {
     public float healthValue = 100;
