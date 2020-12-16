@@ -77,6 +77,7 @@ public class Anglerfish : MonoBehaviour {
             rb.velocity = direction * speed;
         }
         else if (targetDistance <= 50f && state == anglerfishState.chasing) {
+            rb.velocity = direction * speed / 5;
             state = anglerfishState.biting;
             Damage();
         }
@@ -88,6 +89,7 @@ public class Anglerfish : MonoBehaviour {
         }
         else if (targetDistance < 170f) {
             chaseSnapshot.TransitionTo(2f);
+            
         }
     }
 
