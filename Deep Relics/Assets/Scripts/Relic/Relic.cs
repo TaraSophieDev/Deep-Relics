@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.Experimental.GlobalIllumination;
 using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
@@ -69,6 +68,7 @@ public class Relic : MonoBehaviour {
 
     private void Start() {
         GetRandomScanTime();
+        relicCounter = GameObject.Find("Relic Counter").GetComponent<RelicCounter>();
     }
 
     public void resetTime() {
