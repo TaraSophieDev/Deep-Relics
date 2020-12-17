@@ -94,7 +94,7 @@ public class Anglerfish : MonoBehaviour {
     }
 
     void Damage() {
-        sH.playerHealth -= damage * (Time.deltaTime / 2);
+        sH.playerHealth -= damage * (Time.deltaTime * 1.5f);
         sH.UpdateHealth();
     }
 }
