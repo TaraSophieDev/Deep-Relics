@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca3a36c8-d071-437e-8c15-c355a929c03f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Deep Relics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Deep Relics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ScanRelic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ScanRelic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="ca3a36c8-d071-437e-8c15-c355a929c03f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +31,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Other/WinScreenController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/SubmarineHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Deep-Relics/Deep Relics/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Deep-Relics/Deep Relics/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Deep-Relics/Deep Relics/Assets/Scripts/Player/ScanRelic.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Deep-Relics/Deep Relics/Assets/Scripts/Anglerfish/Anglerfish.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Deep-Relics/Deep Relics/Assets/Scripts/Player/SubmarineController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -116,7 +115,7 @@
       <workItem from="1608150278334" duration="2432000" />
       <workItem from="1608158881580" duration="1221000" />
       <workItem from="1608226249544" duration="1721000" />
-      <workItem from="1608233037371" duration="84000" />
+      <workItem from="1608233037371" duration="480000" />
     </task>
     <task id="LOCAL-00001" summary="added music transition with targetDistance">
       <created>1607375123797</created>
@@ -272,7 +271,35 @@
       <option name="project" value="LOCAL" />
       <updated>1608160022873</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="multiplied damage speed">
+      <created>1608233451851</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1608233451851</updated>
+    </task>
+    <task id="LOCAL-00024" summary="added scanning audio">
+      <created>1608233477842</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1608233477842</updated>
+    </task>
+    <task id="LOCAL-00025" summary="changed audio source name">
+      <created>1608233494301</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1608233494301</updated>
+    </task>
+    <task id="LOCAL-00026" summary="meta">
+      <created>1608233503613</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1608233503613</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +340,9 @@
     <MESSAGE value="added crosshair" />
     <MESSAGE value="added propeller.wav" />
     <MESSAGE value="added crunch.wav" />
+    <MESSAGE value="multiplied damage speed" />
+    <MESSAGE value="added scanning audio" />
+    <MESSAGE value="changed audio source name" />
     <MESSAGE value="meta" />
     <option name="LAST_COMMIT_MESSAGE" value="meta" />
   </component>
