@@ -10,6 +10,7 @@ public class ScanRelic : MonoBehaviour {
     
     public float range = 0;
 
+    public AudioSource aSourceScanning;
     public ScanState state = ScanState.ready;
     public enum ScanState {
         ready,
@@ -45,6 +46,12 @@ public class ScanRelic : MonoBehaviour {
             //just works in the if statement
             if (hit.transform.TryGetComponent<Relic>(out Relic relic)) {
                 relic.ScanTickDown(Time.deltaTime);
+                if (relic.currentScanTime > 0) {
+                    aSourceScanning.volume = 1;
+                }
+                else {
+                    aSourceScanning.volume = 0;
+                }
                 //print("scanTime: " + ruin.scanTime);
                 print("currentScanTime: " +  relic.currentScanTime);
             }

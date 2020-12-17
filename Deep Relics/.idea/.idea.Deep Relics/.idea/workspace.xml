@@ -20,17 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca3a36c8-d071-437e-8c15-c355a929c03f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Deep Relics/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Deep Relics/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Deep Relics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Deep Relics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/MusicMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/MusicMixer.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PSX/PSX Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PSX/PSX Profile.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Win.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Win.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Other/WinScreenController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Other/WinScreenController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ScanRelic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ScanRelic.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Relic/Relic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Relic/Relic.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,18 +35,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/Christian/Documents/Repositories/Unity_Projects/Deep-Relics/Deep Relics/Assets/Scripts/Anglerfish/Anglerfish.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Other/WinScreenController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/SubmarineHealth.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Relic/Relic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Other/WinScreenController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Anglerfish/Anglerfish.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/SubmarineController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ScanRelic.cs" />
       </list>
     </option>
   </component>
@@ -120,7 +114,9 @@
       <workItem from="1607862553906" duration="695000" />
       <workItem from="1607966226083" duration="56000" />
       <workItem from="1608150278334" duration="2432000" />
-      <workItem from="1608158881580" duration="922000" />
+      <workItem from="1608158881580" duration="1221000" />
+      <workItem from="1608226249544" duration="1721000" />
+      <workItem from="1608233037371" duration="84000" />
     </task>
     <task id="LOCAL-00001" summary="added music transition with targetDistance">
       <created>1607375123797</created>
@@ -206,7 +202,77 @@
       <option name="project" value="LOCAL" />
       <updated>1607548261504</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fixed moving bug">
+      <created>1608159851084</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608159851084</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added propeller sound mixing">
+      <created>1608159866844</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608159866844</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fixed exception">
+      <created>1608159889682</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608159889682</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added propeller volume handling">
+      <created>1608159921981</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608159921981</updated>
+    </task>
+    <task id="LOCAL-00017" summary="removed unused imports">
+      <created>1608159941406</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608159941406</updated>
+    </task>
+    <task id="LOCAL-00018" summary="removed unused imports">
+      <created>1608159964211</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608159964211</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added crosshair">
+      <created>1608159984716</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608159984716</updated>
+    </task>
+    <task id="LOCAL-00020" summary="added propeller.wav">
+      <created>1608160000378</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1608160000378</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added crunch.wav">
+      <created>1608160011197</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1608160011197</updated>
+    </task>
+    <task id="LOCAL-00022" summary="meta">
+      <created>1608160022873</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1608160022873</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +297,6 @@
     <MESSAGE value="added music transition with targetDistance" />
     <MESSAGE value="Deleted music changer file." />
     <MESSAGE value="Removed music transitioning via buttons on SubmarineController.cs" />
-    <MESSAGE value="meta" />
     <MESSAGE value="implemented Damage()" />
     <MESSAGE value="added SubmarineHealth.cs and a health system" />
     <MESSAGE value="Added CloseGame()" />
@@ -240,7 +305,16 @@
     <MESSAGE value="Edit win scene" />
     <MESSAGE value="Added winscreencontroller script for closing or restart the game" />
     <MESSAGE value="Added win condition." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added win condition." />
+    <MESSAGE value="fixed moving bug" />
+    <MESSAGE value="added propeller sound mixing" />
+    <MESSAGE value="fixed exception" />
+    <MESSAGE value="added propeller volume handling" />
+    <MESSAGE value="removed unused imports" />
+    <MESSAGE value="added crosshair" />
+    <MESSAGE value="added propeller.wav" />
+    <MESSAGE value="added crunch.wav" />
+    <MESSAGE value="meta" />
+    <option name="LAST_COMMIT_MESSAGE" value="meta" />
   </component>
   <component name="WindowStateProjectService">
     <state x="664" y="340" key="#Notifications" timestamp="1607526931997">
@@ -251,10 +325,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1608152236615" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1607548266444">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1608160027771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1607548266444" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1608160027771" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606925259777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
