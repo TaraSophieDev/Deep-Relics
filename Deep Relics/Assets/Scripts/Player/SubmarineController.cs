@@ -6,8 +6,8 @@ public class SubmarineController : MonoBehaviour {
     public Rigidbody rbSm;
     public Camera camera;
     public RelicCounter relicCounter;
-    public AudioSource aSource;
-
+    public AudioSource aSourcePropeller;
+    
     public int vRotationSpeed = 15;
     public float minRotation = -80f;
     public float maxRotation = 80f;
@@ -34,14 +34,14 @@ public class SubmarineController : MonoBehaviour {
     void SubmarineMovement() {
         if (Input.GetKey("w")) {
             rbSm.AddForce(rbSm.transform.forward * maxSpeed);
-            aSource.volume = submarinePropellerSound;
+            aSourcePropeller.volume = submarinePropellerSound;
         } 
         else if(Input.GetKey("s")){
             rbSm.AddForce(-rbSm.transform.forward * maxSpeed);
-            aSource.volume = submarinePropellerSound;
+            aSourcePropeller.volume = submarinePropellerSound;
         }
         else {
-            aSource.volume = 0.5f;
+            aSourcePropeller.volume = 0.5f;
         }
         //Vector3 localVelocity = transform.InverseTransformDirection(rbSm.velocity);
         //localVelocity.x = 0;
@@ -68,22 +68,22 @@ public class SubmarineController : MonoBehaviour {
     void SubmarineStrafe() {
         if (Input.GetKey("a")) {
             rbSm.AddForce(-rbSm.transform.right * maxSpeed);
-            aSource.volume = submarinePropellerSound;
+            aSourcePropeller.volume = submarinePropellerSound;
         }
         else if (Input.GetKey("d")) {
             rbSm.AddForce(rbSm.transform.right * maxSpeed);
-            aSource.volume = submarinePropellerSound;
+            aSourcePropeller.volume = submarinePropellerSound;
         }
     }
 
     void SubmarineAscend() {
         if (Input.GetKey("q") || Input.GetKey(KeyCode.LeftControl)) {
             rbSm.AddForce(Vector3.down * ascendSpeed);
-            aSource.volume = submarinePropellerSound;
+            aSourcePropeller.volume = submarinePropellerSound;
         } 
         else if (Input.GetKey("e") || Input.GetKey(KeyCode.Space)) {
             rbSm.AddForce(Vector3.up * ascendSpeed);
-            aSource.volume = submarinePropellerSound;
+            aSourcePropeller.volume = submarinePropellerSound;
         }
     }
 
