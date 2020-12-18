@@ -1,4 +1,4 @@
-# Underwater-Spook-Game
+# Deep Relics
 A game for the Halloween HPSX and 32bit Jam
 
 # Addons
